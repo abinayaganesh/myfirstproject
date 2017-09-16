@@ -1,9 +1,9 @@
-<?php include 'includes/db.php'; ?>
-<html>
+<?php require_once('includes/db.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>register pg</title>
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<style type="text/css">
 		.container{
@@ -43,5 +43,9 @@ while($rows=mysqli_fetch_array($run_sql)){
 </tbody>
 </table>
 </div>
+	<footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</footer>
 </body>
 </html>
